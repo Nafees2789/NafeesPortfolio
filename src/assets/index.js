@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import tcs from "./company/tcs.png";
 import impg from "./company/impg.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import otm from "./otm.png";
+import movieapp from "./movieapp.png";
+import mockdata from "./mockdata.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   tcs,
   impg,
-  carrent,
-  jobit,
-  tripguide,
+  otm,
+  movieapp,
+  mockdata,
 };

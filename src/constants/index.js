@@ -19,9 +19,9 @@ import {
     tcs,
     impg,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    otm,
+    movieapp,
+    mockdata,
     threejs,
 } from "../assets";
 
@@ -199,9 +199,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Ecommerce",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "The web-based e-commerce platform facilitates online shopping, order customization, and payments. Users can choose between online transactions and cash on delivery. Sellers manage products, restocking, and receive user ratings.",
         tags: [
             {
                 name: "react",
@@ -212,45 +212,28 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "express",
                 color: "pink-text-gradient",
             },
+            {
+                name: "restapi",
+                color: "orange-text-gradient",
+            },
         ],
-        image: carrent,
+        image: otm,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Movie Ticket App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A web application enables users to view movie shows, local events, and book tickets online. It offers convenience and accessibility for entertainment seekers. Customize the dates and Generates the QR code once the ticket is booked",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
@@ -258,7 +241,28 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: movieapp,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Mock Data",
+        description:
+            "A basic React app to showcase the given dummy data by adding a beautiful interface, backend part is handled in node and express, created the restapi's  and also added the search functionality, partitioned the data depending on the requirements.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: mockdata,
         source_code_link: "https://github.com/",
     },
 ];
