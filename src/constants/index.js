@@ -201,7 +201,7 @@ const projects = [
     {
         name: "Ecommerce",
         description:
-            "The web-based e-commerce platform facilitates online shopping, order customization, and payments. Users can choose between online transactions and cash on delivery. Sellers manage products, restocking, and receive user ratings.",
+            "The web-based e-commerce platform facilitates online shopping, order customization, and payments. Users can choose between online transactions and cash on delivery. Sellers manage products, inventory, and get user ratings.",
         tags: [
             {
                 name: "react",
@@ -237,8 +237,12 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "express",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "orange-text-gradient",
             },
         ],
         image: movieapp,

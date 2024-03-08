@@ -46,7 +46,7 @@ const About = () => {
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
       I'm a skilled software developer with experience in Javascript 
-      and TypeScript, and expertise in libraries like React, Redux, Node.js and express.js. 
+      and TypeScript, and expertise in libraries, frameworks, database like React, Redux, Node.js, express.js and mongodb. 
       I'm a qucik and self learner, collaborate closley with clients to create efficient,
       scalable and user-friendly solutions that solve real-world problems. 
       Let's work together to bring ideas to life!  
