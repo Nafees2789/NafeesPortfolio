@@ -138,7 +138,7 @@ const experiences = [
             "Developed the React Js components, Virtual DOM, and command over the workflow of Redux",
             "Worked closely on Research and development project on developing and implementing new features to the project and fixing production and internal bugs",
             "creating and implementing valuable solutions, depending on the client’s requirements.",
-            "Creating REST API's and Handling the API bugs in the Dev and Production environments",
+            "Creating REST API's, JSON web tokens and Handling the API bugs in the Dev and Production environments",
             " Proficient With the Agile Methodologies and it’s implementation."
         ],
     },
