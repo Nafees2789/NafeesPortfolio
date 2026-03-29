@@ -26,6 +26,7 @@ import shopify from './company/shopify.png';
 import tcs from './company/tcs.png';
 import impg from './company/impg.png';
 import firstmile from './company/firstmile.png';
+import softtek from './company/softtek.png';
 
 import otm from './otm.png';
 import movieapp from './movieapp.png';
@@ -61,4 +62,5 @@ export {
   otm,
   movieapp,
   mockdata,
+  softtek,
 };

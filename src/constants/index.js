@@ -24,6 +24,7 @@ import {
   mockdata,
   threejs,
   firstmile,
+  softtek,
 } from '../assets';
 
 export const navLinks = [
@@ -117,16 +118,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Tata Consultancy Services(TCS)',
-    icon: tcs,
-    iconBg: '#383E56',
-    date: 'August 2021 - January 2023',
+    title: 'Software Engineer',
+    company_name: 'Softtek India Private Limited',
+    icon: softtek,
+    iconBg: '#E6DEDD',
+    date: 'March 2025 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Built a scalable invoice system using React.js and Next.js for single and bulk invoice generation.',
+      'Optimized invoice workflows, reducing manual effort and improving efficiency.',
+      'Developed an admin dashboard for real-time invoice tracking and reporting.',
+      'Integrated REST APIs and built reusable components for scalable and maintainable architecture.',
+    ],
+  },
+  {
+    title: 'Software Engineer',
+    company_name: 'First Mile Global Consultancy Pvt Ltd',
+    icon: firstmile,
+    iconBg: '#383E56',
+    date: 'March 2024 - November 2024',
+    points: [
+      'Built an interactive data visualization app using React.js and Redux for real-time insights beyond Snowflake.',
+      'Automated data synchronization between Snowflake and web apps, ensuring real-time accuracy and consistency.',
+      'Enhanced reporting efficiency by optimizing data workflows and reducing manual effort.',
+      'Developed a scalable Snowflake Native App using  Python for advanced analytics and data processing.',
     ],
   },
   {
@@ -136,23 +150,23 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'January 2023 - August 2023',
     points: [
-      'Developed the React Js components, Virtual DOM, and command over the workflow of Redux',
-      'Worked closely on Research and development project on developing and implementing new features to the project and fixing production and internal bugs',
-      'creating and implementing valuable solutions, depending on the client’s requirements.',
-      "Creating REST API's and Handling the API bugs in the Dev and Production environments",
-      ' Proficient With the Agile Methodologies and it’s implementation.',
+      'Developed and optimized React.js components with efficient state management using Redux.',
+      'Implemented new features and resolved production issues to improve application stability and performance.',
+      'Built and maintained REST APIs with JWT-based authentication, handling bugs across dev and production environments.',
+      'Collaborated in Agile teams to deliver features efficiently and ensure smooth development workflows.',
     ],
   },
   {
-    title: 'Software Engineer',
-    company_name: 'First Mile Global Consultancy Pvt Ltd',
-    icon: firstmile,
+    title: 'Associate System Engineer',
+    company_name: 'Tata Consultancy Services(TCS)',
+    icon: tcs,
     iconBg: '#383E56',
-    date: 'March 2024 - Current',
+    date: 'August 2021 - January 2023',
     points: [
-      'Developed an interactive data visualization application using React and Redux, integrated with Snowflake to deliver real-time insights and enhance accessibility for non-Snowflake users.',
-      'Automated data synchronization processes with React and Redux between the Snowflake Native App and a custom web application, ensuring real-time data accuracy and significantly improving reporting efficiency.',
-      'Designed and implemented a scalable Snowflake Streamlit Native App using Python, providing advanced data science and analytics capabilities for seamless data processing and interactive analysis.',
+      'Assisted in gathering and understanding client requirements to support development tasks.',
+      'Contributed to feature development and bug fixes, ensuring smooth application functionality.',
+      'Used Git for version control, including branching, merging, and pull request workflows.',
+      'Collaborated with design and development teams to deliver user-friendly interfaces.',
     ],
   },
   // {
